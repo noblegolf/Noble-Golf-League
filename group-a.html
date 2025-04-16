@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Group A - Noble Golf League</title>
+  
+<style>
+  body { font-family: Arial, sans-serif; padding: 20px; background-color: #ffffff; margin: 0; }
+  h2, h1 { color: #2e7d32; }
+  table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 16px; }
+  th, td { border: 1px solid #999; padding: 10px; text-align: center; }
+  th { background-color: #f2f2f2; }
+  .fixtures { margin-top: 30px; white-space: pre-wrap; font-size: 15px; }
+  @media (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+      display: block;
+      width: 100%;
+    }
+    th { display: none; }
+    td {
+      position: relative;
+      padding-left: 50%;
+      text-align: left;
+    }
+    td::before {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 45%;
+      white-space: nowrap;
+      font-weight: bold;
+    }
+    td:nth-of-type(1)::before { content: "Player"; }
+    td:nth-of-type(2)::before { content: "W"; }
+    td:nth-of-type(3)::before { content: "L"; }
+    td:nth-of-type(4)::before { content: "BP"; }
+    td:nth-of-type(5)::before { content: "Pts"; }
+  }
+</style>
+
+</head>
+<body>
+  <h2>🅰️ Group A – Leaderboard</h2>
+  <table>
+    <tr><th>Player</th><th>W</th><th>L</th><th>BP</th><th>Pts</th></tr>
+    <tr><td>Gurpal Sohal</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td>Ajitpal Singh</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td>Param Dhillon</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td>Aman Sandhu</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td>Harman Sidhu</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td>Harjeet Bhullar</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td>Amit Choksi</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td>Harman Jolly</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+  </table>
+
+  <div class="fixtures">
+    <h2>📅 Fixtures</h2>
+    <pre>
+Week 1
+• Gurpal Sohal vs Ajitpal Singh
+• Param Dhillon vs Aman Sandhu
+• Harman Sidhu vs Harjeet Bhullar
+• Amit Choksi vs Harman Jolly
+
+Week 2
+• Gurpal Sohal vs Param Dhillon
+• Ajitpal Singh vs Aman Sandhu
+• Harman Sidhu vs Amit Choksi
+• Harjeet Bhullar vs Harman Jolly
+
+Week 3
+• Gurpal Sohal vs Harman Jolly
+• Ajitpal Singh vs Amit Choksi
+• Param Dhillon vs Harjeet Bhullar
+• Aman Sandhu vs Harman Sidhu
+
+Week 4
+• Gurpal Sohal vs Amit Choksi
+• Ajitpal Singh vs Harjeet Bhullar
+• Param Dhillon vs Harman Sidhu
+• Aman Sandhu vs Harman Jolly
+
+Week 5
+• Gurpal Sohal vs Harjeet Bhullar
+• Ajitpal Singh vs Harman Sidhu
+• Param Dhillon vs Harman Jolly
+• Aman Sandhu vs Amit Choksi
+
+Week 6
+• Gurpal Sohal vs Harman Sidhu
+• Ajitpal Singh vs Harman Jolly
+• Param Dhillon vs Amit Choksi
+• Aman Sandhu vs Harjeet Bhullar
+
+Week 7
+• Gurpal Sohal vs Aman Sandhu
+• Ajitpal Singh vs Param Dhillon
+• Harjeet Bhullar vs Amit Choksi
+• Harman Sidhu vs Harman Jolly
+    </pre>
+  </div>
+</body>
+</html>
